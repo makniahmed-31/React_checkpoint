@@ -1,5 +1,7 @@
 
 .imageProfile{
+    width:322px;
+    height:322px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -7,12 +9,21 @@
     border-radius: 200px;
  
 }
-.imageProfile {
-    overflow: hidden;
-    transition-duration: 0.8s;
-    transition-property: transform;
+.profileImg,.FullName,.MyAdress{
+    border: solid 2px black;
 }
-.imageProfile:hover {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
+.FullName{
+    text-align: center;
+}
+.MyAdress{
+    text-align: center;
+}
+h1:hover,h3:hover{
+    font-size: 50px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }

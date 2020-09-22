@@ -1,16 +1,17 @@
-import React , { Component } from 'react';
-import MyProfilePhoto from './Components/Profile/ProfilPhoto'
+import React from 'react';
 import './App.css';
+import MyProfilePhoto from './Components/Profile/ProfilePhoto'
+import FullName from './Components/Profile/FullName'
+import MyAdress from './Components/Profile/Address'
 
-class App extends Component {
-  render(){
-    return (
-      <div className="App">
-        <MyProfilePhoto />
-      </div>
-    );
-  
-  }
+function App() {
+  return (
+    <div className="App">
+      <MyProfilePhoto />
+      <FullName />
+      <MyAdress />
+    </div>
+  );
 }
 
 export default App;
